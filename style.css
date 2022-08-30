@@ -1,0 +1,144 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: #345B63;
+}
+
+.toolbox-cont{
+    background-color: #112031;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    top: 0px;
+}
+
+.toolbox-priority-cont{
+    background-color: #D4ECDD;
+    height: 3rem;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+
+.action-btn-cont{
+    background-color: #D4ECDD;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 2px;
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+.lightpink{
+    background-color: rgb(30, 125, 227)
+}
+.lightblue{
+    background-color: rgb(13, 165, 13)
+}
+.lightred{
+    background-color: darkred
+}
+.lightgreen{
+    background-color: darkorchid
+}
+.add-btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+.remove-btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.active{
+    border: 4px solid black;
+}
+.modal-cont{
+    width: 50vw;
+    height: 50vh;
+    display: none;
+    background-color: black;
+    position:fixed;
+    top: 28vh; 
+    left: 25vw;
+    border-radius: 2px;
+    /* border: 2px solid black; */
+}
+.textarea-cont{
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #B1D0E0;
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 2rem; 
+    border-radius: 2px; 
+    border: 2px solid black;
+    border-right: 0;
+
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: #B4CFB0;
+
+}
+.priority-color{
+    width: 5rem;
+    height: 2.5rem;
+}
+.main-cont{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.ticket-cont{
+    background-color: #D4ECDD;
+    height: 10rem;
+    width: 15rem;
+}
+.ticket-color{
+    height: 1rem;
+}
+.ticket-id{
+    height: 1.5rem;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 600;
+    color:darkblue;
+    
+
+}
+.task-area{
+    height: 6rem;
+    padding: 5px;
+    font-size: 1.5rem;
+    overflow: auto;
+    outline: none;
+}
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 13.55rem;
+}
