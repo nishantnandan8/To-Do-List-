@@ -1,4 +1,5 @@
 # To-Do-List-
-in this application you can add tasks and manage it according to your importance. every ote has a unique id.
-you can add and delete notes.
-you can lock and unlock your notes to add data.
+In this application you can add tasks and manage it according to your importance. Every note has a unique id.
+You can add and delete notes.
+You can lock and unlock your notes to add data.
+  			
